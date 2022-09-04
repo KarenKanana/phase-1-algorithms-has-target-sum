@@ -12,19 +12,16 @@ function hasTargetSum(array, target) {
 }
 
 
-/* 
-  Write the Big O time complexity of your function here
-*/
+function findSock(array) {
+  for (const item of array) {
+    if (item === "sock") return "sock";
+  }
+}
 
-/* 
-  Add your pseudocode here
-*/
+function findSock(object) {
+  if (object.sock) return "sock";
+}
 
-/*
-  Add written explanation of your solution here
-*/
-
-// You can run `node index.js` to view these console logs
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
